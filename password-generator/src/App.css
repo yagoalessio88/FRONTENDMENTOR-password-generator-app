@@ -1,0 +1,71 @@
+/* 
+////////////////////////////
+FONTS
+////////////////////////////
+*/
+
+/* main font  */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@700&display=swap');
+
+
+/*
+////////////////////////////
+General Border-Box reset 
+////////////////////////////
+*/
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 
+////////////////////////////
+GLOBAL CSS
+////////////////////////////
+*/
+
+/*
+=============== 
+Variables
+===============
+*/
+
+:root {
+  
+
+  /* darkest grey - used for headings */
+  --clr-grey: #24232C;
+  --clr-grey-light: #817D92;
+  --clr-white: #E6E5EA;
+  --clr-black: #18171F;
+  --clr-green: #A4FFAF;
+  --clr-red: #F64A4A;
+  --clr-orange: #FB7C58;
+  --clr-yellow: #F8CD65;
+  
+  
+  --transition: all 0.5s ease-out;
+  --spacing: 0.25rem;
+  --radius: 0.5rem;
+  --light-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  --dark-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  --max-width: 1170px;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  font-family: 'JetBrains Mono', monospace;
+  /* line-height: 1.5; */
+  font-size: 18px;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

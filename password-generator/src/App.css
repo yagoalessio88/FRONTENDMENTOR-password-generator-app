@@ -57,6 +57,8 @@ Variables
 html,
 body {
   overflow-x: hidden;
+  background-color: var(--clr-black);
+  color: var(--clr-white);
 }
 body {
   font-family: 'JetBrains Mono', monospace;
@@ -68,4 +70,118 @@ ul {
 }
 a {
   text-decoration: none;
+}
+
+
+/* 
+////////////////////////////
+STYLES
+////////////////////////////
+*/
+
+.main-section{
+  height: 100vh;
+  width: 100vw;
+  padding:3.5rem 1rem ;
+}
+
+.password-component{
+  text-align: center;
+}
+.password-component h4{
+  padding: 1rem;
+  text-align: center;
+}
+
+.password-result{
+  height: 3.5rem;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--clr-grey);
+}
+
+.password-result span{
+float: left;
+height: 1.7rem;
+}
+.password-result button{
+  float: right;
+}
+
+.password-generator{
+  padding: 1rem;
+  background-color: var(--clr-grey);
+}
+
+.length-selector{
+  height: 3.7rem;
+  margin-bottom: 2rem;
+  text-align: left;
+  text-transform: capitalize;
+}
+.length-selector span{
+  float: right;
+}
+.length-selector input{
+  width: 100%;
+  padding: 1rem;
+  background-color: var(--clr-black);
+  color: var(--clr-green);
+}
+
+.checkbox-group{
+  height: 2.5rem;
+  font-size: 1.16rem;
+  text-align: left;
+}
+
+.checkbox-group input{
+  float:left;
+  display: block;
+  margin-right: 0.5rem;
+  margin-top: 0.4rem;
+  /* TO DO   
+  borde blanco
+  background negro
+  */
+}
+.checkbox-group input[selected]{
+  background-color: var(--clr-green);
+  /* TO DO   
+  borde y fondo verde
+  color negro para el check
+  */
+}
+
+.password-generator_footer{
+  padding: 1rem;
+  background-color: var(--clr-grey);
+}
+
+.strength-level{
+  height: 3.1rem;
+  padding: .7rem;
+  margin-bottom: 1rem;
+  background-color: var(--clr-black);
+}
+.strength-level p{
+  float: left;
+  margin-top: 0.2rem;
+  font-size: 0.8rem;
+}
+.strength-level span{
+float: right;
+}
+.strength-level i{
+ color: var(--clr-yellow);
+}
+.generate-button{
+  height: 3.1rem;
+  width: 100%;
+  padding: 1rem;
+  text-align: center;
+  border-style: none;
+  font-weight: 700;
+  color:var(--clr-grey) ;
+  background-color: var(--clr-green);
 }

@@ -8,12 +8,13 @@ function App() {
 				<div className="password-result">
 					<span>PTx1f5DaFX</span>
 					<button>
-						<i></i>
+						<i>H</i>
 					</button>
 				</div>
 				<div className="password-generator">
-					<div>
-						password length selector <span>10</span>
+					<div className="length-selector">
+						Character Length <span>10</span>
+						<input type="range" />
 					</div>
 					<div className="checkboxes">
 						<div className="checkbox-group">
@@ -35,11 +36,13 @@ function App() {
 					</div>
 				</div>
 				<div className="password-generator_footer">
-					<div>
-						STRENTGTH <span>MEDIUM</span>
-						<i></i>
+					<div className="strength-level">
+						<p>STRENTGTH</p>
+						<span>
+							MEDIUM <i>IIII</i>
+						</span>
 					</div>
-					<button>
+					<button className="generate-button">
 						GENERATE <i></i>
 					</button>
 				</div>
